@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import  { useState, useEffect } from 'react';
 import image from '../assets/mainSlider.png';
 import { Search } from 'lucide-react';
 import add from '../assets/mini-makers-contest-ads1.png';
