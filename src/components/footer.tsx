@@ -1,8 +1,12 @@
-import React from 'react';
+
 import { Facebook, Twitter, Linkedin, Youtube, Instagram } from 'lucide-react';
+interface themeProps {
+    dark: string,
+    light: string
+}
 
 const Footer = ({ theme = 'dark' }) => {
-  const themeClasses = {
+  const themeClasses:themeProps = {
     dark: 'bg-gray-900 text-white',
     light: 'bg-white text-gray-900',
   };
